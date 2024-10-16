@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; padding: 20px; background: #f4f4f4;
+}
+
+header {
+    text-align: center; background: #35424a; color: #fff; padding: 20px; border-radius: 8px;
+}
+
+img {
+    max-width: 150px; border-radius: 50%;
+}
+
+section {
+    background: #fff; margin: 20px 0; padding: 15px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    color: #35424a;
+}
+
+ul {
+    list-style-type: none; padding: 0;
+}
+
+@media (max-width: 600px) {
+    body { padding: 10px; }
+    img { max-width: 100px; }
+    section { padding: 10px; }
+}

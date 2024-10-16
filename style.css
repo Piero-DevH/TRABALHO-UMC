@@ -14,10 +14,9 @@ header {
 }
 
 img {
-    max-width: 150px;
+    max-width: 100%;
+    height: auto;   
     border-radius: 50%;
-    width: 100%; 
-    height: auto;
 }
 
 section {
@@ -44,7 +43,7 @@ ul {
     }
     
     img {
-        max-width: 100px;
+        max-width: 100px; 
     }
 
     section {
@@ -52,4 +51,20 @@ ul {
     }
 
     h3 {
-        font-size: 1.2em; /* Reduzir o tamanho da font
+        font-size: 1.2em;
+    }
+    
+    ul {
+        padding-left: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    header {
+        padding: 15px; 
+    }
+
+    h3 {
+        font-size: 1em; 
+    }
+}

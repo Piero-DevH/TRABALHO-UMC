@@ -14,8 +14,8 @@ header {
 }
 
 img {
-    max-width: 100%;
-    height: auto;   
+    max-width: 100%; /* A imagem ocupa no máximo 100% da largura do contêiner */
+    height: auto;    /* Mantém a proporção da imagem */
     border-radius: 50%;
 }
 
@@ -29,7 +29,11 @@ section {
 
 h3 {
     color: #35424a;
-    font-size: 1.5em;
+    font-size: 2.5vw; /* Tamanho de fonte responsivo */
+}
+
+p {
+    font-size: 1.5vw; /* Tamanho de fonte responsivo para o texto */
 }
 
 ul {
@@ -43,7 +47,7 @@ ul {
     }
     
     img {
-        max-width: 100px; 
+        max-width: 100px; /* Limitar a largura máxima da imagem em telas menores */
     }
 
     section {
@@ -51,20 +55,28 @@ ul {
     }
 
     h3 {
-        font-size: 1.2em;
+        font-size: 5vw; /* Tamanho de fonte menor em telas pequenas */
+    }
+
+    p {
+        font-size: 4vw; /* Tamanho de fonte para o texto em telas pequenas */
     }
     
     ul {
-        padding-left: 10px;
+        padding-left: 10px; /* Adicionar algum espaçamento */
     }
 }
 
 @media (max-width: 400px) {
     header {
-        padding: 15px; 
+        padding: 15px; /* Ajustar o padding do cabeçalho */
     }
 
     h3 {
-        font-size: 1em; 
+        font-size: 6vw; /* Diminuir ainda mais o tamanho da fonte em telas muito pequenas */
+    }
+
+    p {
+        font-size: 5vw; /* Diminuir o tamanho do texto em telas muito pequenas */
     }
 }

@@ -1,30 +1,55 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0; padding: 20px; background: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    background: #f4f4f4;
 }
 
 header {
-    text-align: center; background: #35424a; color: #fff; padding: 20px; border-radius: 8px;
+    text-align: center;
+    background: #35424a;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
 }
 
 img {
-    max-width: 150px; border-radius: 50%;
+    max-width: 150px;
+    border-radius: 50%;
+    width: 100%; 
+    height: auto;
 }
 
 section {
-    background: #fff; margin: 20px 0; padding: 15px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h3 {
     color: #35424a;
+    font-size: 1.5em;
 }
 
 ul {
-    list-style-type: none; padding: 0;
+    list-style-type: none;
+    padding: 0;
 }
 
 @media (max-width: 600px) {
-    body { padding: 10px; }
-    img { max-width: 100px; }
-    section { padding: 10px; }
-}
+    body {
+        padding: 10px;
+    }
+    
+    img {
+        max-width: 100px;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    h3 {
+        font-size: 1.2em; /* Reduzir o tamanho da font
